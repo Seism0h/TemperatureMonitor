@@ -4,8 +4,8 @@ A cross-language project for monitoring and processing temperature data, featuri
 
 ## Project Structure
 
-- `src/c/` &mdash; C source files
-- `src/cpp/` &mdash; C++ source files
+- `c/src` &mdash; C source files
+- `cpp/src` &mdash; C++ source files
 
 ## Building the Project
 
