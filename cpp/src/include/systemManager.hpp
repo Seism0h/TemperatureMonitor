@@ -26,7 +26,10 @@ private:
 
 public:
     systemManager(const std::vector<uint8_t>& encodedConfiguration);
-    ~systemManager() = default;
+    ~systemManager() {
+        for (auto* s : sensors) delete s;
+        for (auto* a : actuators) delete a;
+    }
 
     sensor* getSensor(uint16_t number); // Better: use some other qualifier besides the number
     actuator* getActuator(uint16_t number);
