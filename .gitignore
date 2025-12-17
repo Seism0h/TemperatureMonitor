@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+cpp/bin
+cpp/build
+c/bin
+c/build
+
